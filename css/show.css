@@ -1,0 +1,29 @@
+p{
+    color: black;
+   position: absolute;
+    top: calc(100%);
+    left: calc(29%);
+   transition: all 1s;
+   
+}
+a:hover p {
+    top: calc(40%);
+    transform: rotate(360deg);
+}
+a{
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+img{width: 128px;}
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.from{
+    color:pink;
+}
